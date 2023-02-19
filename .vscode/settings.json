@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "outline.icons": false,
+    "breadcrumbs.icons": false,
+    "editor.suggest.showIcons": false,
+    "workbench.editor.showIcons": false,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "window.autoDetectColorScheme": true
+}
