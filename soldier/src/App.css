@@ -1,8 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+*,
+*::before,
+*::after {
+  margin: auto;
+  font-size: x-large;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Neucha", cursive;
+}
+.TodoApp {
+  width: 100%;
+    display: flex;
+  align-items: center;
+  background-color: #3d938e;
+  font-family: "Neucha";
+}
 .App {
-  width: 100vw;
-  min-height: 100vh;
+  width: 50%;
+  min-height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +34,56 @@
   z-index: 1;
   text-align: center;
 }
+
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid steelblue;
+  color: steelblue;
+  font-size: 1rem;
+  font-family: inherit;
+  max-width: 100px;
+  padding: 0.5rem 0.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: steelblue;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  overflow: auto;
+  text-align: center;
+}
+
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  height: 25px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
 
 @media (max-width: 800px) {
   .heading {

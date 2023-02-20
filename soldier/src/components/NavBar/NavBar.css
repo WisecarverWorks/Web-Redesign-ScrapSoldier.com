@@ -1,0 +1,37 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 1.25rem;
+}
+
+.navBar {
+  background: steelblue;
+  box-shadow: 4px 2px 5px gray;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  max-width: 100%;
+}
+
+.navBar button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.4rem 0.5rem;
+}
+
+.navBar button:hover {
+  background: white;
+  color: steelblue;
+  cursor: pointer;
+}
+
+.brand {
+  cursor: pointer;
+  font-size: 2rem;
+}
